@@ -64,3 +64,22 @@ color: #262626;
 	box-shadow: 0 4px 20px 0 #262626;
 	border-radius: 4px;
 }
+
+		 .types__list
+		{display: flex;
+		list-style: none;}
+		 .types__item
+		 {
+			background-color: #f5f5f7;
+			border-radius: 4px;
+		 }
+		 .types__item ul{
+			list-style: none;
+		 }
+		 .types__item ul li span{
+			font-weight: 500;
+		 }
+
+
+
+
