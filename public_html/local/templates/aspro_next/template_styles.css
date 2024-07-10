@@ -32157,16 +32157,52 @@ table.contacts-stores tr.item td:last-of-type {
 .types__item .btn {
 	margin-top: auto;
 }
+.laminate__wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	
+}
+.laminate__content{
+	max-width: 100%;
+}
+.laminate__list{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 14px;
+	max-width: 100%;
+	
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.laminate__item{
+	padding: 0 !important;
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+}
+.laminate__item::before{
+	display: none !important;
+}
+.laminate__desc{
+	text-align: center;
+	margin: 0 !important;
+	max-width: 70px;
+}
 @media (min-width: 767px) {
-
-
-
-
-.types__item
-		 {			
-max-width: 23%;
-
-		 }
-
-
+	.types__item {
+		max-width: 23%;
+	}
+	.laminate__content{
+	max-width: 45%;
+}
+.laminate__list{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 14px;
+	max-width: 45%;
+	
+	padding: 0 !important;
+	margin: 0 !important;
+}
 }
